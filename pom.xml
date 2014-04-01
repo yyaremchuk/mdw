@@ -4,7 +4,7 @@
 	<groupId>com.capula.eoasis</groupId>
 	<artifactId>app1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>app1</name>
+	<name>app</name>
 	<packaging>war</packaging>
 	<build>
 		<finalName>app</finalName>
