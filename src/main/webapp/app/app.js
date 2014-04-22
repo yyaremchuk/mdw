@@ -5,9 +5,10 @@ Ext.application({
     name: 'App',
     models: ['PatientModel'],
     stores: ['PatientStore'],
-    views: ['PatientList'],
+    views: ['PatientList', 'LoginForm'],
+    controllers: ['MyController'],
     launch: function () {
 
-    	Ext.Viewport.add({xtype: 'patientList'});
+    	Ext.Viewport.add({xtype: 'loginForm'});
     }
 });
