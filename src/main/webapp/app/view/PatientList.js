@@ -1,8 +1,7 @@
 Ext.define("App.view.PatientList", {
-    extend: "Ext.Panel",
+    extend: 'Ext.Panel',
     alias: 'widget.patientList',
     config: {
-    	html: 'Simple HTML panel',
         items: [{
         	xtype: 'toolbar',
         	title: 'Top menu',

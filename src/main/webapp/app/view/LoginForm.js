@@ -20,6 +20,7 @@ Ext.define("App.view.LoginForm", {
         	}, {
         		xtype: 'button',
         		ui: 'decline',
+        		itemId: 'loginButtonId',
         		text: 'Submit'
         	}]
     	}]
